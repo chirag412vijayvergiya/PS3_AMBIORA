@@ -43,7 +43,7 @@ const CourseDetails = () => {
           The course you're looking for doesn't exist or has been removed.
         </p>
         <Link
-          to="/courses"
+          to="/courselist"
           className="mt-4 inline-flex items-center text-blue-600 hover:text-indigo-800"
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
@@ -59,7 +59,7 @@ const CourseDetails = () => {
       <div className="bg-indigo-700 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
-            to="/courses"
+            to="/courselist"
             className="inline-flex items-center text-indigo-100 hover:text-white mb-6"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
