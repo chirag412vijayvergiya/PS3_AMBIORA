@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Hide Google Translate default branding */
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
+}
+
+/* Style dropdown */
+.goog-te-combo {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  background-color: white;
+}
